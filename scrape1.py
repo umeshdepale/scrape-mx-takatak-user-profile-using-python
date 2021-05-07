@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 #enter user profile link
 url = 'https://www.mxtakatak.com/12112868004850123567790'
 
-#user Proxy If needed
+#use Proxy If needed
 proxy_host = ""
 proxy_port = ""
 proxy_auth = ""
