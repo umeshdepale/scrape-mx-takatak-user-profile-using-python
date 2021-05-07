@@ -24,7 +24,7 @@ soup = BeautifulSoup(html, 'html.parser')
 text = 'window._state'
 data = soup.find(string=re.compile('.*{0}.*'.format(text)), recursive=True)
 
-#extract json obect from the script
+#extract json object from the script
 def extract_json_objects(text, decoder=JSONDecoder()):
 
     pos = 0
